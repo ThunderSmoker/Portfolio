@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { white_logo, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = React.useState("");
   const [toggle, setToggle] = React.useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={logo}
+            src={white_logo}
             alt="logo"
             className="w-9 h-9 object-contain"
             srcset=""
