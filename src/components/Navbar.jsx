@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { white_logo, menu, close } from "../assets";
+import { white_logo, menu, close, resume } from "../assets";
 const Navbar = () => {
   const [active, setActive] = React.useState("");
   const [toggle, setToggle] = React.useState(false);
@@ -39,7 +39,8 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.title==='My Resume'?<a target="_blank" href={resume}>{nav.title}</a>:<a href={`#${nav.id}`}>{nav.title}</a>}
+              
             </li>
           ))}
         </ul>

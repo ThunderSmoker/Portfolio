@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import white_logo from "./white_logo.png";
 import css from "./tech/css.png";
+import resume from "./docs/resume.pdf"; 
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -19,6 +20,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import discord from "./discord.png";
+import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
 import threejs from "./tech/threejs.svg";
 import django from "./tech/django.png";
 import meta from "./company/meta.png";
@@ -46,6 +50,7 @@ export {
   creator,
   mobile,
   web,
+  resume,
   github,
   menu,
   white_logo,
@@ -53,6 +58,9 @@ export {
   close,
   css,
   docker,
+  discord,
+  linkedin,
+  instagram,
   figma,
   git,
   wrexa,
