@@ -27,6 +27,16 @@ const Contact = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      Swal.fire({
+        icon: "error",
+        title: "Incomplete Form",
+        text: "Please fill in all the required fields.",
+        showConfirmButton: false,
+        timer: 3000,
+      });
+      return; // Stop the submission
+    }
     setLoading(true);
     emailjs.send("service_v2wnm3d", "template_9f0fg3f", {
       from_name: form.name,
