@@ -39,6 +39,7 @@ import spiffy from "./spiffy.png";
 import gdsc from "./company/gdsc.png";
 import onlineshopee from "./onlineshopee.png";
 import contsaga from "./contsaga.png";
+import taghub from "./taghub.png";
 export {
   logo,
   play,
@@ -56,6 +57,7 @@ export {
   white_logo,
   django,
   close,
+  taghub,
   css,
   docker,
   discord,

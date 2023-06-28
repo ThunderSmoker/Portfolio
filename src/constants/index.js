@@ -29,7 +29,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    wrexa
+    wrexa,
+    taghub
   } from "../assets";
   
   export const navLinks = [
@@ -211,7 +212,7 @@ import {
     {
       name: "Spiffy Videchat",
       description:
-        "A fully functional MERN Stack google meet clone using firebase as Database, socket.io & webRTC for real Time Communication and Google Cloud Platform's gcloud engine for deployment of backend.",
+        "A fully functional MERN Stack google meet clone using firebase for session storage, socket.io & webRTC for real Time Communication and Google Cloud Platform's gcloud engine for deployment of backend.",
       tags: [
         {
           name: "react",
@@ -219,11 +220,15 @@ import {
         },
         {
           name: "firebase",
-          color: "yellow-text-gradient",
+          color: "text-yellow-400",
         },
         {
           name: "node",
           color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "text-red-700",
         },
       ],
       image: spiffy,
@@ -241,11 +246,15 @@ import {
         },
         {
           name: "UI/UX",
-          color: "red-text-gradient",
+          color: "text-green-200",
         },
         {
           name: "scss",
           color: "pink-text-gradient",
+        },
+        {
+          name: "animations",
+          color: "text-orange-400",
         },
       ],
       image: contsaga,
@@ -253,27 +262,53 @@ import {
       demo_link:"https://container-saga.wcewlug.org"
     },
     {
-      name: "Online Shopee",
+      name: "TagHUB",
       description:
-        "A MERN stack based shoe selling e-commerce website. It has authentication system for user login and signup and a products home page with cart and checkout functionality.",
+        "A full stack Next.js CRUD application for posting thoughts with tags. Login and SignUp is implemented with both custom credentials and Google OAuth. MongoDB is used as database and firebase for image storage.", 
       tags: [
         {
-          name: "reactjs",
-          color: "blue-text-gradient",
+          name: "Nextjs",
+          color: "orange-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "firebase",
+          color: "text-yellow-400",
+        },
       ],
-      image: onlineshopee,
-      source_code_link: "https://github.com/ThunderSmoker/Online-shopee",
-      demo_link:"https://online-shopee.netlify.app"
+      image: taghub,
+      source_code_link: "https://github.com/ThunderSmoker/Tag-HUB",
+      demo_link:"https://tag-hub.vercel.app/"
     },
+    // {
+    //   name: "Online Shopee",
+    //   description:
+    //     "A MERN stack based shoe selling e-commerce website. It has authentication system for user login and signup and a products home page with cart and checkout functionality.",
+    //   tags: [
+    //     {
+    //       name: "reactjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: onlineshopee,
+    //   source_code_link: "https://github.com/ThunderSmoker/Online-shopee",
+    //   demo_link:"https://online-shopee.netlify.app"
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
