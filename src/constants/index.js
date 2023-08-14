@@ -171,7 +171,7 @@ import {
       company_name: "Wrexa LLC",
       icon: wrexa,
       iconBg: "#ffffff",
-      date: "April 2023 - Present",
+      date: "April 2023 - July 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -236,31 +236,53 @@ import {
       demo_link: "https://spiffy-home.netlify.app/"
     },
     {
-      name: "Container Saga",
+      name: "Medi Raksha",
       description:
-        "Login page and leaderboard for wargames of finding flags inside docker containers held by WCEWLUG for its megaevent METAMORPHOSIS 2k23. Developed using React.js and used glassmorphism.",
+        "Provides a trusted Blockchain based platform for Manufacturer and general public to sell and buy generic medicines.Implemented Django for API, React for frontend and solidity for smart contracts",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "UI/UX",
+          name: "Django",
           color: "text-green-200",
         },
         {
-          name: "scss",
+          name: "Solidity",
           color: "pink-text-gradient",
-        },
-        {
-          name: "animations",
-          color: "text-orange-400",
         },
       ],
       image: contsaga,
-      source_code_link: "https://github.com/ThunderSmoker",
-      demo_link:"https://container-saga.wcewlug.org"
+      source_code_link: "https://github.com/NeutronHive/MediRaksha-ACM",
+      demo_link:"https://github.com/NeutronHive/MediRaksha-ACM"
     },
+    // {
+    //   name: "Container Saga",
+    //   description:
+    //     "Login page and leaderboard for wargames of finding flags inside docker containers held by WCEWLUG for its megaevent METAMORPHOSIS 2k23. Developed using React.js and used glassmorphism.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "UI/UX",
+    //       color: "text-green-200",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "animations",
+    //       color: "text-orange-400",
+    //     },
+    //   ],
+    //   image: contsaga,
+    //   source_code_link: "https://github.com/ThunderSmoker",
+    //   demo_link:"https://container-saga.wcewlug.org"
+    // },
     {
       name: "TagHUB",
       description:
