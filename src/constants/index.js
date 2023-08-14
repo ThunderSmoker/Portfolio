@@ -30,7 +30,8 @@ import {
     tripguide,
     threejs,
     wrexa,
-    taghub
+    taghub,
+    mediraksha
   } from "../assets";
   
   export const navLinks = [
@@ -188,7 +189,7 @@ import {
       name: "Prajwal Shah",
       designation: "President",
       company: "Codechef WCE Chapter",
-      image: "https://media.licdn.com/dms/image/D5603AQFhHGRmlzTAmA/profile-displayphoto-shrink_400_400/0/1662789555053?e=1691625600&v=beta&t=lV_ly_PXrJfqPsXz1q3xzg5UhgLL2eb4jxYCROAqWac",
+      image: "https://media.licdn.com/dms/image/D4D03AQEOw6eTaDEOkw/profile-displayphoto-shrink_800_800/0/1688228223448?e=1697673600&v=beta&t=_5BJkGG7Y64oqa3fttNVrsiTZSENYUe_XDdjouyDams",
     },
     {
       testimonial:
@@ -196,7 +197,7 @@ import {
       name: "Datta Gangji",
       designation: "President",
       company: "WCE WLUG",
-      image: "https://media.licdn.com/dms/image/D5603AQEIXikMHyqpDQ/profile-displayphoto-shrink_400_400/0/1677207736288?e=1691625600&v=beta&t=dI7Yxcotlz9VK4ArDNwyYD3qaoMW68PiE8CKFNsmyEk",
+      image: "https://media.licdn.com/dms/image/D5603AQEIXikMHyqpDQ/profile-displayphoto-shrink_400_400/0/1677207736288?e=1697673600&v=beta&t=qftbYX8KgkS_A_QsVQN2UuojposCnDRHDaLojkp5A9Q",
     },
     {
       testimonial:
@@ -204,7 +205,7 @@ import {
       name: "Jyotiraditya Patil",
       designation: "Chair",
       company: "IEEE WCE Chapter",
-      image: "https://media.licdn.com/dms/image/D5603AQEd0m3f56SgKA/profile-displayphoto-shrink_400_400/0/1673584040696?e=1691625600&v=beta&t=LVymZYreEnWCAIbFYnfk36SlTOxMJ6OdyA6LEIRvPN0",
+      image: "https://media.licdn.com/dms/image/D5603AQEd0m3f56SgKA/profile-displayphoto-shrink_400_400/0/1673584040696?e=1697673600&v=beta&t=Jvoa46AJTXrmeqTKquytnJTAKRhwczW0Mj6GLfbMljs",
     },
   ];
   
@@ -253,7 +254,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: contsaga,
+      image: mediraksha,
       source_code_link: "https://github.com/NeutronHive/MediRaksha-ACM",
       demo_link:"https://github.com/NeutronHive/MediRaksha-ACM"
     },

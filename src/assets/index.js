@@ -10,6 +10,7 @@ import white_logo from "./white_logo.png";
 import css from "./tech/css.png";
 import resume from "./docs/resume.pdf"; 
 import docker from "./tech/docker.png";
+import mediraksha from "./mediraksha.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -46,6 +47,7 @@ export {
   backend,
   gdsc,
   spiffy,
+  mediraksha,
   onlineshopee,
   contsaga,
   creator,
