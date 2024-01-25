@@ -41,10 +41,12 @@ import gdsc from "./company/gdsc.png";
 import onlineshopee from "./onlineshopee.png";
 import contsaga from "./contsaga.png";
 import taghub from "./taghub.png";
+import purplle from "./purplle.png";
 export {
   logo,
   play,
   backend,
+  purplle,
   gdsc,
   spiffy,
   mediraksha,

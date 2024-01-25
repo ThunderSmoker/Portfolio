@@ -30,6 +30,7 @@ import {
     tripguide,
     threejs,
     wrexa,
+    purplle,
     taghub,
     mediraksha
   } from "../assets";
@@ -174,10 +175,23 @@ import {
       iconBg: "#ffffff",
       date: "April 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using React.js and other related technologies.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implemented responsive design and ensuring cross-browser compatibility.",
+        "Participated in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Backend Developer Intern",
+      company_name: "Purplle.com",
+      icon: purplle,
+      iconBg: "#ffffff",
+      date: "Jan 2024 - Feb 2024",
+      points: [
+        "Worked on Nest Js APIs, overseeing backend orchestration and optimising response times.",
+        "Enhanced User response time by implementing efficient Caching mechanism.",
+        "Contributed to optimise database queries for efficient search and retrieval.",
+        "Documented API endpoints using Swagger and best practices for code optimisation.",
       ],
     },
   ];
