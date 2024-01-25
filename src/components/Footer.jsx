@@ -9,30 +9,13 @@ const Footer = () => {
   return (
     <>
       <div
-        className={`${styles.paddingX} w-full flex items-center py-5  bottom-0 z-20`}
+        className={`${styles.paddingX} w-full flex items-center py-5 bottom-0 z-20`} 
+       
       >
-        <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-          <Link
-            to="/"
-            className="flex items-center gap-2 "
-            onClick={() => {
-              setActive("");
-              window.scrollTo(0, 0);
-            }}
-          >
-            {/* <img
-              src={white_logo}
-              alt="logo"
-              className="w-9 h-9 object-contain"
-              srcset=""
-            />
-            <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-              Aradhya &nbsp;
-              <span className="sm:block hidden">|ThunderSmoker</span>
-            </p> */}
-          </Link>
+        <div className="w-full flex justify-center items-center max-w-7xl mx-auto">
+        
 
-          <div className="flex gap-7">
+          <div className="flex gap-7 justify-center" >
             <Link to={"https://github.com/ThunderSmoker"} target="_blank">
               <div className="w-10 h-10">
                 <Sball

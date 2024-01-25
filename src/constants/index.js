@@ -189,7 +189,7 @@ import {
       name: "Prajwal Shah",
       designation: "President",
       company: "Codechef WCE Chapter",
-      image: "https://media.licdn.com/dms/image/D4D03AQEOw6eTaDEOkw/profile-displayphoto-shrink_800_800/0/1688228223448?e=1697673600&v=beta&t=_5BJkGG7Y64oqa3fttNVrsiTZSENYUe_XDdjouyDams",
+      image: "prajwal.jpg",
     },
     {
       testimonial:
@@ -197,7 +197,7 @@ import {
       name: "Datta Gangji",
       designation: "President",
       company: "WCE WLUG",
-      image: "https://media.licdn.com/dms/image/D5603AQEIXikMHyqpDQ/profile-displayphoto-shrink_400_400/0/1677207736288?e=1697673600&v=beta&t=qftbYX8KgkS_A_QsVQN2UuojposCnDRHDaLojkp5A9Q",
+      image: "datta.jpg",
     },
     {
       testimonial:
@@ -205,7 +205,7 @@ import {
       name: "Jyotiraditya Patil",
       designation: "Chair",
       company: "IEEE WCE Chapter",
-      image: "https://media.licdn.com/dms/image/D5603AQEd0m3f56SgKA/profile-displayphoto-shrink_400_400/0/1673584040696?e=1697673600&v=beta&t=Jvoa46AJTXrmeqTKquytnJTAKRhwczW0Mj6GLfbMljs",
+      image: "jyot.jpg",
     },
   ];
   
